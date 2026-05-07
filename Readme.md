@@ -89,7 +89,7 @@ Evaluation metrics used:
 - MAE (Mean Absolute Error)
 - RMSE (Root Mean Squared Error)
 
-Best model: Gradient Boosting Regressor
+Best model: Lasso Regression
 ## 6. Streamlit Deployment
 
 Built an interactive Streamlit application for:
@@ -126,15 +126,15 @@ Content_Monetization_Modeler
 |Metric|	Value|
 |-----|-----|
 |R² Score|	0.95|
-|MAE|	3.62|
-|RMSE|	13.53|
+|MAE|	3.07|
+|RMSE|	13.47|
 
 ## Key Insights
-- Watch time is the strongest predictor of ad revenue.
-- Higher engagement improves monetization.
-- Better audience retention increases revenue potential.
-- Different content categories generate different revenue levels.
-- Viewer device and country also influence monetization patterns.
+- Likes and comments were the strongest predictors of ad revenue.
+- Audience engagement plays a major role in monetization performance.
+- Higher views generally lead to increased ad revenue generation.
+- Watch time positively contributes to revenue prediction.
+- Lasso Regression performed best and automatically reduced less important features using regularization.
 
 ## How to Run the Project
 1. Install Required Libraries
